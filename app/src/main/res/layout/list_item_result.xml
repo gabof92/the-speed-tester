@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bit45.thespeedtester.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/RippleStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/alt_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:orientation="horizontal"
+        android:background="@color/alt_background2">
+
+        <!--LAYOUT ICON-->
+        <RelativeLayout
+            android:background="@color/alt_background"
+            android:paddingBottom="@dimen/result_item_icon_big_padding_vertical"
+            android:paddingTop="@dimen/result_item_icon_big_padding_vertical"
+            android:paddingRight="@dimen/result_item_icon_big_padding_horizontal"
+            android:paddingLeft="@dimen/result_item_icon_big_padding_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="80dp"
+            >
+            <!--ICON-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/result_item_icon_big"
+                android:text="@string/icon_stop"
+                android:textColor="@color/main_app_color"/>
+            <!--VARIABLE TIME-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/icon"
+                android:id="@+id/text_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alt_text"
+                android:textSize="@dimen/result_item_text_icon"
+                app:typeface="robotoMedium"/>
+            <!--VARIABLE DATE-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/text_time"
+                android:id="@+id/text_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alt_text"
+                android:textSize="@dimen/result_item_text_icon"
+                app:typeface="robotoMedium"/>
+
+        </RelativeLayout>
+
+        <!--LAYOUT SPEED-->
+        <RelativeLayout
+            android:background="@drawable/border_left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <!--VARIABLE NETWORK-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:id="@+id/text_network"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="@dimen/result_item_text_small"
+                android:singleLine="true"
+                app:typeface="robotoBold"/>
+
+            <!--LABEL SLASH-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_toRightOf="@id/text_network"
+                android:id="@+id/text_slash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="@dimen/result_item_text_small"
+                app:typeface="robotoRegular"
+                android:text=" / "/>
+
+            <!--VARIABLE CONNECTION TYPE-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_toRightOf="@id/text_slash"
+                android:id="@+id/text_connection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alt_text"
+                android:textSize="@dimen/result_item_text_small"
+                app:typeface="robotoMedium"
+                android:singleLine="true"
+                android:text="@string/label_connection_wifi"/>
+
+            <!--_____________VARIABLE SPEED___________________________________________________________________________ -->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_below="@id/text_network"
+                android:id="@+id/text_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="@dimen/result_item_text_main"
+                app:typeface="robotoMedium" />
+            <!--______________________________________________________________________________________________________ -->
+            <!--ICON DURATION-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_below="@id/text_speed"
+                android:id="@+id/label_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/icon_duration"
+                android:textSize="@dimen/result_item_icon_small"
+                app:typeface="robotoMedium"
+                android:text="@string/icon_label_duration"/>
+
+            <!--VARIABLE DURATION-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_below="@id/text_speed"
+                android:layout_toRightOf="@id/label_duration"
+                android:id="@+id/text_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alt_text"
+                android:textSize="@dimen/result_item_text_small"
+                android:layout_marginLeft="5dp"
+                app:typeface="robotoRegular"
+                android:text="0s"/>
+
+            <!--ICON DATA-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_below="@id/text_speed"
+                android:layout_toRightOf="@id/text_duration"
+                android:id="@+id/label_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/icon_data"
+                android:textSize="@dimen/result_item_icon_small"
+                android:layout_marginLeft="15dp"
+                app:typeface="robotoMedium"
+                android:text="@string/icon_label_data"/>
+
+            <!--VARIABLE DATA-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_below="@id/text_speed"
+                android:layout_toRightOf="@id/label_data"
+                android:id="@+id/text_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/alt_text"
+                android:textSize="@dimen/result_item_text_small"
+                android:layout_marginLeft="5dp"
+                app:typeface="robotoRegular"
+                android:text="578.04 MB"/>
+
+        </RelativeLayout>
+
+        <!--LAYOUT RIGHT ICON-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--ICON RIGHT-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/icon_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/result_item_icon_right"
+                android:text="@string/icon_right_open"
+                android:textColor="@color/alt_text"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.bit45.thespeedtester.MaterialRippleLayout>

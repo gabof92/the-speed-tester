@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:orientation="vertical"
+    android:background = "@color/main_background">
+
+    <!-- The Title Bar -->
+    <LinearLayout
+        android:id = "@+id/dlg_single_choice_titlebar"
+        android:orientation = "horizontal"
+        android:layout_width = "fill_parent"
+        android:layout_height = "?android:attr/listPreferredItemHeight"
+        android:layout_weight="0"
+        android:gravity = "center_vertical"
+        android:background="@color/main_app_color">
+        <com.bit45.thespeedtester.font.FontelloTextView
+            android:id="@+id/dlg_title_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/result_detail_icon_title_minWidth"
+            android:textSize="@dimen/result_detail_icon_title"
+            android:textColor="@color/main_text"
+            android:gravity="center_horizontal"
+            />
+        <com.bit45.thespeedtester.font.RobotoTextView
+            android:id="@+id/dlg_title_text"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textSize="@dimen/result_detail_text_title"
+            android:textColor="@color/main_text"
+            app:typeface="robotoBlack"
+            />
+    </LinearLayout>
+
+    <!--LIST VIEW-->
+    <ListView
+        android:id = "@+id/dlg_single_choice_list"
+        android:layout_width = "fill_parent"
+        android:layout_height = "fill_parent"
+        android:layout_weight="1">
+    </ListView>
+
+    <!--BUTTON LAYOUT-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_weight="0"
+        android:background="@drawable/border_top"
+        android:gravity="center">
+
+        <!-- CANCEL BUTTON -->
+        <com.bit45.thespeedtester.MaterialRippleLayout
+            android:id="@+id/dlg_btn_cancel"
+            style="@style/RippleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            app:rippleColor="@color/main_color_grey_400"
+            android:background="@color/start_button_background"
+            >
+
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/result_detail_text_button"
+                android:text="@string/dlg_button_cancel"
+                android:textColor="@color/main_text"
+                app:typeface="robotoMedium"/>
+
+        </com.bit45.thespeedtester.MaterialRippleLayout>
+    </RelativeLayout>
+
+</LinearLayout>

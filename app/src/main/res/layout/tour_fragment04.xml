@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/welcome_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:background="@color/alt_background2"
+    android:layout_weight="6"
+    android:paddingTop="48dp">
+
+    <FrameLayout
+        android:id="@+id/images"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:clipChildren="false">
+        <ImageView
+            android:id="@+id/welcome_04"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tour_save"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_gravity="center_horizontal|bottom"/>
+
+    </FrameLayout>
+
+    <com.bit45.thespeedtester.font.RobotoTextView
+        android:id="@+id/heading"
+        app:typeface="robotoBlack"
+        android:text="@string/tour_save_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center_horizontal"
+        android:textAppearance="@style/WelcomeHeadingAppearance" />
+
+    <com.bit45.thespeedtester.font.RobotoTextView
+        android:id="@+id/content"
+        app:typeface="robotoMedium"
+        android:text="@string/tour_save_text"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:paddingLeft="@dimen/tour_text_padding"
+        android:paddingRight="@dimen/tour_text_padding"
+        android:gravity="top|center_horizontal"
+        android:minHeight="@dimen/welcome_content_min_height"
+        android:textAppearance="@style/WelcomeContentAppearance" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"/>
+
+</LinearLayout>

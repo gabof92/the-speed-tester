@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bit45.thespeedtester.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/RippleStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/alt_background2">
+
+        <com.bit45.thespeedtester.font.FontelloTextView
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/nav_item_icon_minWidth"
+            android:textSize="@dimen/nav_item_icon"
+            android:textColor="@color/main_text"
+            android:gravity="center_horizontal"
+            />
+
+        <com.bit45.thespeedtester.font.RobotoTextView
+            android:id="@+id/title"
+            android:textSize="@dimen/nav_item_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/main_text"
+            app:typeface="robotoBold" />
+    </LinearLayout>
+
+</com.bit45.thespeedtester.MaterialRippleLayout>

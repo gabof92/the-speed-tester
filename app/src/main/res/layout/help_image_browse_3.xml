@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:minWidth="@dimen/help_item_child_image_minWidth"
+    android:orientation="vertical"
+    android:background = "@color/main_background">
+
+    <LinearLayout
+        android:layout_width="@dimen/help_item_child_image_minWidth"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <!-- The Title Bar -->
+        <LinearLayout
+            android:id = "@+id/dlg_single_choice_titlebar"
+            android:orientation = "horizontal"
+            android:layout_width = "fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity = "center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@color/main_app_color">
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:id="@+id/dlg_title_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="60dp"
+                android:textSize="22sp"
+                android:textColor="@color/main_text"
+                android:gravity="center_horizontal"
+                android:text="@string/icon_label_action_result_list"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:id="@+id/dlg_title_text"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/main_text"
+                app:typeface="robotoBlack"
+                android:text="@string/title_result_detail_activity"
+                />
+        </LinearLayout>
+
+
+        <!--INFO PANEL-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <!-- Connection INFO PANEL -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:layout_margin="0dp">
+
+                <!--Connection ICON-->
+                <com.bit45.thespeedtester.font.FontelloTextView
+                    android:id="@+id/icon_connection"
+                    style="@style/IconStyle"
+                    android:text="@string/icon_label_connection_wifi"
+                    />
+
+                <!--Connection CONSTANT-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Constant"
+                    android:text="@string/label_connection"
+                     />
+
+                <!--Connection VARIABLE-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Variable"
+                    android:text="@string/label_connection_wifi"
+                    
+                    android:id="@+id/rbConnectionInfo"/>
+
+            </LinearLayout>
+
+            <!-- Speed INFO PANEL -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/alt_background"
+                android:layout_margin="0dp">
+
+                <!--Speed ICON-->
+                <com.bit45.thespeedtester.font.FontelloTextView
+                    style="@style/IconStyle"
+                    android:text="@string/icon_label_speed"
+                    />
+
+                <!--Speed CONSTANT-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Constant"
+                    android:text="@string/label_speed"
+                     />
+
+                <!--Speed VARIABLE-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Variable"
+                    android:text="384.05 KB/s"
+                    
+                    android:id="@+id/rbSpeedInfo"/>
+
+            </LinearLayout>
+
+            <!-- Downloaded INFO PANEL -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/main_background"
+                android:layout_margin="0dp">
+
+                <!--Downloaded ICON-->
+                <com.bit45.thespeedtester.font.FontelloTextView
+                    style="@style/IconStyle"
+                    android:text="@string/icon_label_downloaded"
+                    />
+
+                <!--Downloaded CONSTANT-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Constant"
+                    android:text="@string/label_downloaded"
+                     />
+
+                <!--Downloaded VARIABLE-->
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/LabelStyle.Variable"
+                    android:text="24.02 MB/s"
+                    
+                    android:id="@+id/rbDownloadedInfo"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

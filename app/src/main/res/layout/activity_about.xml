@@ -1,0 +1,105 @@
+<RelativeLayout
+    tools:context="com.bit45.thespeedtester.AboutActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background = "@color/main_background">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--CONTENT PANEL-->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="@dimen/about_icon"
+                android:layout_height="@dimen/about_icon"
+                android:src="@drawable/speedtester_logo"
+                android:scaleType="fitCenter"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/label_about_copyright"
+                android:textSize="@dimen/about_text_copyright"
+                android:textColor="@color/alt_text"
+                app:typeface="robotoMedium"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:background="@drawable/border_top"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:text = "@string/label_about_title_email"
+                android:textSize="@dimen/about_text_suggestions"
+                android:textColor="@color/main_text"
+                app:typeface="robotoBlack"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/label_about_text_email"
+                android:textSize="@dimen/about_text_emailus"
+                android:textColor="@color/alt_text"
+                app:typeface="robotoMedium"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/label_about_email"
+                android:textSize="@dimen/about_text_email"
+                android:textColor="@color/main_app_color"
+                app:typeface="robotoBlack"
+                android:gravity="center_horizontal"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/border_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/label_version"
+                android:textSize="@dimen/about_text_version"
+                android:textColor="@color/alt_text"
+                app:typeface="robotoBlack"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                />
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:text = "@string/version_name"
+                android:textSize="@dimen/about_text_version"
+                android:textColor="@color/alt_text"
+                app:typeface="robotoBlack"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test di Velocità</string>
+    <string name="title_activity_test_result_list">Test salvati</string>
+
+    <!--Toolbar Strings-->
+    <string name="action_title_save">Salva il risultato</string>
+    <string name="action_title_result_list">@string/title_activity_test_result_list</string>
+    <string name="action_title_unit">Unità di Dati</string>
+
+    <!--Drawer Strings-->
+    <string name="label_drawer_rate">Votaci</string>
+    <string name="label_drawer_help">Aiuto</string>
+    <string name="label_drawer_tour">Demo Introduttiva</string>
+    <string name="label_drawer_about">Informazioni su</string>
+
+    <!--Label Strings-->
+    <string name="label_not_connected">Non Collegato</string>
+    <string name="label_connection_wifi">Wifi</string>
+    <string name="label_variable_zero">-</string>
+    <string name="label_network">Rete:</string>
+    <string name="label_connection">Tipo di Connessione:</string>
+    <string name="label_speed">Velocità:</string>
+    <string name="label_downloaded">Scaricato:</string>
+    <string name="label_duration">Durata:</string>
+    <string name="label_date">Data:</string>
+    <string name="label_time">Ora:</string>
+    <string name="label_info_welcome">Benvenuto</string>
+    <string name="label_info_predownload">Collegato</string>
+    <string name="label_info_postdownload">Finito</string>
+    <string name="label_info_cancelled">Annulla</string>
+    <string name="label_info_failed">Errore di Connessione</string>
+    <string name="label_info_loading">Caricamento</string>
+    <string name="label_info_noresults">Nessun salvataggio</string>
+    <string name="button_start">Inizio</string>
+    <string name="button_cancel">Stop</string>
+    <string name="label_list_item_seconds">s</string>
+
+    <!--Toast Strings-->
+    <string name="test_toast_running">Test in corso</string>
+    <string name="test_toast_save_done">Salvato con successo</string>
+    <string name="test_toast_save_again">E\' stato salvato</string>
+    <string name="test_toast_save_noresult">Niente da salvare</string>
+    <string name="test_toast_save_error">Si è verificato un errore</string>
+    <string name="test_toast_delete_success">Rimosso con successo</string>
+
+    <!--Date Strings-->
+    <string name="label_month_january">GENNAIO</string>
+    <string name="label_month_february">FEBBRAIO</string>
+    <string name="label_month_march">MARZO</string>
+    <string name="label_month_april">APRILE</string>
+    <string name="label_month_may">MAGGIO</string>
+    <string name="label_month_june">GIUGNO</string>
+    <string name="label_month_july">LUGLIO</string>
+    <string name="label_month_august">AGOSTO</string>
+    <string name="label_month_september">SETTEMBRE</string>
+    <string name="label_month_october">OTTOBRE</string>
+    <string name="label_month_november">NOVEMBRE</string>
+    <string name="label_month_december">DICEMBRE</string>
+
+    <string name="label_month_january_short">GEN</string>
+    <string name="label_month_february_short">FEB</string>
+    <string name="label_month_march_short">MAR</string>
+    <string name="label_month_april_short">APR</string>
+    <string name="label_month_may_short">MAG</string>
+    <string name="label_month_june_short">GIU</string>
+    <string name="label_month_july_short">LUG</string>
+    <string name="label_month_august_short">AGO</string>
+    <string name="label_month_september_short">SET</string>
+    <string name="label_month_october_short">OTT</string>
+    <string name="label_month_november_short">NOV</string>
+    <string name="label_month_december_short">DIC</string>
+    
+    <!--Dialog Strings-->
+    <string name="dlg_button_cancel">Ritorno</string>
+    <string name="title_result_detail_activity">Dettagli del Test</string>
+    <string name="dlg_button_done">Finito</string>
+    <string name="dlg_button_delete">Rimuovere</string>
+    <string name="dlg_title_maxduration">Durata del Test</string>
+    <string name="dlg_title_maxdata">Limite Download</string>
+    <string name="dlg_title_unit">Unità di Dati</string>
+    <string name="dlg_label_seconds">Secondi</string>
+
+    <!--Tour strings-->
+    <string name="tour_speed_title">Metti alla prova</string>
+    <string name="tour_speed_text">la velocità di download del tuo dispositivo, premi il pulsante blu di avvio e guarda i risultati in tempo reale.</string>
+    <string name="tour_data_title">Controlla</string>
+    <string name="tour_data_text">i dati del tuo sistema fissando un limite di download per il test, basta premere il pulsante verde a destra del pulsante di avvio.</string>
+    <string name="tour_duration_title">Scegli</string>
+    <string name="tour_duration_text">la durata della prova premendo l\'icona blu a sinistra del pulsante Start e scegli un tempo fino a 60 secondi.</string>
+    <string name="tour_save_title">Salva</string>
+    <string name="tour_save_text">il risultato premendo l\'icona bianca in alto a destra, ma solo quando il test è completato.</string>
+    <string name="tour_results_title">Verifica</string>
+    <string name="tour_results_text">i risultati salvati e premi per vedere più dettagli, apri l\'elenco premendo l\'icona a sinistra del pulsante di salvataggio.</string>
+    <string name="tour_drawer_title">Scopri</string>
+    <string name="tour_drawer_text">più informazioni e opzioni nel menu laterale, è possibile aprirlo toccando l\'icona nell\'angolo in alto a sinistra dello schermo.</string>
+    <string name="tour_empty_text">AVVIO!</string>
+    <string name="tour_label_skip">SALTA</string>
+    <string name="tour_label_done">PRONTO</string>
+
+    <!--About-->
+    <string name="label_about_copyright">
+        Il Test di Velocità ™, comprese le immagini e i loghi sono protetti
+        dalla legge dei diritti d\'autore e gestito da Bit45 ™.
+        \nCopyright © 2015 Bit45 ™. Tutti i diritti riservati.
+    </string>
+    <string name="label_about_title_email">Eventuali suggerimenti o commenti??</string>
+    <string name="label_about_text_email"> È possibile inviare un\'email a:</string>
+    <string name="label_version">Versione</string>
+
+    <!--Help-->
+    <string name="action_title_collapse">Chiudi Tutto</string>
+    <string name="label_help_title_start">Come iniziare</string>
+    <string name="label_help_title_connection">Collegamento</string>
+    <string name="label_help_title_graph">Grafico</string>
+    <string name="label_help_title_results">Risultati</string>
+    <string name="label_help_title_configuration">Configurazione</string>
+    <string name="label_help_title_save">Salvataggio di un Test</string>
+    <string name="label_help_title_browse">Ricerca di un Test</string>
+    <string name="label_help_title_units">Unità di Dati</string>
+    <string name="label_help_example_duration_1">10 Secondi</string>
+    <string name="label_help_example_duration_2">20 Secondi</string>
+    <string name="label_help_example_wifinetwork">Wifi \"Rete dell\'Ufficio\"</string>
+    <string name="label_help_example_network">Rete dell\'Ufficio</string>
+    <string name="label_help_example_date">12 SEP 2015</string>
+    <string name="label_help_text_start_1">
+        Avviare il test è semplice, basta toccare il pulsante blu in basso sullo schermo.
+        Può darsi che i pulsanti diventino grigi mentre viene stabilita la connessione al server.
+    </string>
+    <string name="label_help_text_start_2">
+        Una volta stabilita la connessione inizia la prova, il pulsante blu
+        diventa rosso che è possibile toccare per interrompere il test.
+    </string>
+    <string name="label_help_text_connection_1">
+        Nella parte superiore della schermata di test si possono trovare informazioni sul
+        collegamento, se il dispositivo NON è collegato al wifi si vedrà il simbolo della
+        connessione mobile, seguito dal tipo di connessione (p. es. LTE) e il nome dell\'operatore
+        di telefonia mobile (p. es. \"Movistar\").
+    </string>
+    <string name="label_help_text_connection_2">
+        Se il dispositivo è connesso a una rete wireless, verrà visualizzato il
+        simbolo conosciuto di wifi, seguito dalla parola "wireless" e il nome (SSID) della rete.
+    </string>
+    <string name="label_help_text_connection_3">
+        Se il dispositivo non è connesso a una rete si visualizzerà un simbolo di errore,
+        seguito dalla parola \"Non Collegato\".
+    </string>
+    <string name="label_help_text_graph_1">
+        Qui si può vedere lo stato di avanzamento del test verificando la quantità di dati scaricati al
+        secondo.
+    </string>
+    <string name="label_help_text_graph_2">
+        L\'asse orizzontale misura la durata della prova, i numeri rappresentano i secondi.
+    </string>
+    <string name="label_help_text_graph_3">
+        L\'asse verticale rappresenta la quantità di dati scaricati ed i numeri misurano
+        i Kilobit (Kb). Per ulteriori informazioni sui kilobit vedere la sezione \"unità di dati\".
+    </string>
+    <string name="label_help_text_graph_4">
+        Ogni cerchio in questa linea rappresenta la quantità di dati scaricati al secondo individualmente;
+        questa linea NON rappresenta la velocità media di download.
+    </string>
+    <string name="label_help_text_graph_5">
+        La linea tratteggiata rappresenta la velocità media di download, tenendo conto della
+        quantità totale di dati scaricati durante tutta la prova.
+    </string>
+    <string name="label_help_text_results_1">
+        Questo è il valore più importante del test, va di pari passo con la linea tratteggiata
+        e nel grafico indica la velocità media di download del dispositivo.
+        Il principale obiettivo del test è quello di calcolare questo valore.
+    </string>
+    <string name="label_help_text_results_2">
+        Questo valore indica la quantità totale di dati scaricati durante la prova, ricorda
+        che se il dispositivo NON è connesso a una rete wireless, il test consumerà parte del tuo piano
+        tariffario dati, in modo che consideriamo importante essere informati su questo valore
+        in ogni momento.
+    </string>
+    <string name="label_help_text_configuration_1">
+        Esistono due modi per configurare la velocità di esecuzione del test.
+        È possibile accedere a queste opzioni toccando uno dei pulsanti situati a sinistra o a destra del tasto blu
+        di avvio.
+    </string>
+    <string name="label_help_text_configuration_2">
+        Il pulsante a sinistra del tasto di inizio apre una finestra che consente di scegliere la durata della prova.
+    </string>
+    <string name="label_help_text_configuration_3">
+        Il pulsante situato a destra del tasto Start apre una finestra che consente di assegnare un limite
+        alla quantità di dati scaricati nella prova.
+    </string>
+    <string name="label_help_text_save_1">
+        Dopo ogni test è possibile salvare i risultati ottenuti e altre informazioni importanti
+        come il tipo di connessione, la durata della prova, la data e l\'ora. Per fare questo basta
+        toccare l\'icona che si trova nell\'angolo in alto a destra dello schermo
+        (Vedi foto).
+    </string>
+    <string name="label_help_text_browse_1">
+        Se hai salvato uno o più risultati, sarà disponibile una lista in cui tutte queste informazioni
+        vengono memorizzate. È possibile accedervi toccando l\'icona a sinistra dell\'icona \'salva\' nell\'angolo in alto a destra (vedi foto).
+    </string>
+    <string name="label_help_text_browse_2">
+        Ogni elemento della lista visualizza un riepilogo delle informazioni memorizzate del test.
+    </string>
+    <string name="label_help_text_browse_3">
+        Quando si tocca un elemento della lista si aprirà una finestra che visualizza informazioni
+        dettagliate di questo test. È possibile toccare il pulsante blu per ritornare o il rosso
+        per rimuovere la voce dall\'elenco.
+    </string>
+    <string name="label_help_text_units_1">
+        Utilizzando questa applicazione troverai due unità di dati diversi:
+        \n- Megabit (Mb)
+        \n- Kilobit (Kb)
+        Entrambe le unità sono utilizzate per misurare quantità di dati in dispositivi
+        elettronici, la differenza tra loro è che 1 Mb = 1024 Kb, quindi abbiamo usato
+        KB per misurare piccole quantità di dati e Mb per grandi quantità di dati.
+    </string>
+    <string name="label_help_text_units_2">
+        Troverai anche due unità collegate utilizzate per misurare la velocità di download:
+        \n- Megabit al secondo (Mb/s)
+        \n- Kilobit al secondo (Kb/s)
+        \nLa differenza tra loro è spiegata sopra.
+    </string>
+
+
+</resources>

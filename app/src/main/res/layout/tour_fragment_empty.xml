@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_dark">
+
+    <com.bit45.thespeedtester.font.RobotoTextView
+        android:id="@+id/heading"
+        app:typeface="robotoBlack"
+        android:text="@string/tour_empty_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:gravity="center"
+        android:textSize="65dp"
+        android:textColor="@color/main_app_color"
+        android:layout_gravity="center" />
+
+</FrameLayout>

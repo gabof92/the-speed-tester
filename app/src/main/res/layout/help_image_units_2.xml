@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/help_item_child_image_minWidth"
+    android:orientation="vertical">
+
+    <!--MAIN CONTENT LAYOUT-->
+    <LinearLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/main_background">
+
+        <!-- Speed INFO PANEL 1-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/alt_background"
+            android:layout_margin="0dp">
+
+            <!--Speed ICON-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                style="@style/IconStyle"
+                android:text="@string/icon_label_speed"
+                tools:ignore="SpUsage"/>
+
+            <!--Speed CONSTANT-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                style="@style/LabelStyle.Constant"
+                android:text="@string/label_speed"
+                tools:ignore="SpUsage" />
+
+            <!--Speed VARIABLE-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                style="@style/LabelStyle.Variable"
+                android:text="1024 KB/s"
+                tools:ignore="SpUsage"/>
+
+        </LinearLayout>
+
+        <!-- Speed INFO PANEL 2-->
+        <LinearLayout
+            android:background="@drawable/border_top"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp">
+
+            <!--Speed ICON-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                style="@style/IconStyle"
+                android:text="@string/icon_label_speed"
+                tools:ignore="SpUsage"/>
+
+            <!--Speed CONSTANT-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                style="@style/LabelStyle.Constant"
+                android:text="@string/label_speed"
+                tools:ignore="SpUsage" />
+
+            <!--Speed VARIABLE-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                style="@style/LabelStyle.Variable"
+                android:text="1 MB/s"
+                tools:ignore="SpUsage"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

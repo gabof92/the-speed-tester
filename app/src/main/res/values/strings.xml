@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">The Speed Tester</string>
+    <string name="version_name">1.6</string>
+    <string name="title_activity_about">@string/label_drawer_about</string>
+    <string name="title_activity_help">@string/label_drawer_help</string>
+    <string name="title_activity_test_result_list">Saved Tests</string>
+    <string name="title_result_detail_activity">Test Details</string>
+    <string name="hello_world">Hey Jude!</string>
+
+    <!--ADMOB-->
+    <string name="banner_ad_unit_id">ca-app-pub-7980888705778674/7418362948</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7980888705778674/8476293747</string>
+    <!--<string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>-->
+
+    <!--Toolbar Strings-->
+    <string name="icon_label_action_save">@string/icon_floppy</string>
+    <string name="icon_label_action_result_list">@string/icon_chart</string>
+    <string name="icon_label_action_unit">@string/icon_help_units</string>
+    <string name="icon_label_action_collapse">@string/icon_up_open_big</string>
+    <string name="action_title_save">Save this result</string>
+    <string name="action_title_result_list">List of results</string>
+    <string name="action_title_unit">Change Data Unit</string>
+
+    <!--Drawer Strings-->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="label_drawer_rate">Rate this app</string>
+    <string name="label_drawer_help">Help</string>
+    <string name="label_drawer_tour">Quick Tour</string>
+    <string name="label_drawer_about">About</string>
+    <string name="icon_drawer_star">@string/icon_star_4</string>
+    <string name="icon_drawer_help">@string/icon_help_1</string>
+    <string name="icon_drawer_tour">@string/icon_mobile_1</string>
+    <string name="icon_drawer_about">@string/icon_info_circled_1</string>
+
+    <!--Label Strings-->
+    <string name="label_not_connected">Not Connected</string>
+    <string name="label_connection_wifi">Wifi</string>
+    <string name="label_variable_zero">-</string>
+    <string name="label_Bits">Bits</string>
+    <string name="label_Bytes">Bytes</string>
+    <string name="label_GB">GB</string>
+    <string name="label_MB">MB</string>
+    <string name="label_KB">KB</string>
+    <string name="label_Mb">Mb</string>
+    <string name="label_variable_MBps">MB/s</string>
+    <string name="label_variable_KBps">KB/s</string>
+    <string name="label_variable_Mbps">Mb/s</string>
+    <string name="label_variable_Kbps">Kb/s</string>
+    <string name="label_chart_seconds">S</string>
+    <string name="label_network">Network:</string>
+    <string name="label_connection">Connection type:</string>
+    <string name="label_speed">Avg. Speed:</string>
+    <string name="label_downloaded">Downloaded:</string>
+    <string name="label_duration">Duration:</string>
+    <string name="label_date">Date:</string>
+    <string name="label_time">Time:</string>
+    <string name="label_info_welcome">Welcome</string>
+    <string name="label_info_predownload">Connecting</string>
+    <string name="label_info_postdownload">Finished</string>
+    <string name="label_info_cancelled">Stopped</string>
+    <string name="label_info_failed">Can\'t Connect</string>
+    <string name="label_info_loading">Loading</string>
+    <string name="label_info_noresults">Nothing Saved</string>
+    <string name="button_start">Start</string>
+    <string name="button_cancel">Stop</string>
+    <string name="label_list_item_seconds">s</string>
+
+    <!--Toast Strings-->
+    <string name="test_toast_running">SpeedTest in progress</string>
+    <string name="test_toast_save_done">Result saved successfully</string>
+    <string name="test_toast_save_again">Already saved</string>
+    <string name="test_toast_save_noresult">Nothing to save</string>
+    <string name="test_toast_save_error">An error has occurred</string>
+    <string name="test_toast_delete_success">Result deleted successfully</string>
+
+    <!--Date Strings-->
+    <string name="label_month_january">JANUARY</string>
+    <string name="label_month_february">FEBRUARY</string>
+    <string name="label_month_march">MARCH</string>
+    <string name="label_month_april">APRIL</string>
+    <string name="label_month_may">MAY</string>
+    <string name="label_month_june">JUNE</string>
+    <string name="label_month_july">JULY</string>
+    <string name="label_month_august">AUGUST</string>
+    <string name="label_month_september">SEPTEMBER</string>
+    <string name="label_month_october">OCTOBER</string>
+    <string name="label_month_november">NOVEMBER</string>
+    <string name="label_month_december">DECEMBER</string>
+
+    <string name="label_month_january_short">JAN</string>
+    <string name="label_month_february_short">FEB</string>
+    <string name="label_month_march_short">MAR</string>
+    <string name="label_month_april_short">APR</string>
+    <string name="label_month_may_short">MAY</string>
+    <string name="label_month_june_short">JUN</string>
+    <string name="label_month_july_short">JUL</string>
+    <string name="label_month_august_short">AUG</string>
+    <string name="label_month_september_short">SEP</string>
+    <string name="label_month_october_short">OCT</string>
+    <string name="label_month_november_short">NOV</string>
+    <string name="label_month_december_short">DEC</string>
+    
+    <!--Dialog Strings-->
+    <string name="dlg_button_cancel">Nevermind</string>
+    <string name="dlg_button_done">Done</string>
+    <string name="dlg_button_delete">Delete</string>
+    <string name="dlg_title_maxduration">Test Duration</string>
+    <string name="dlg_title_maxdata">Download Limit</string>
+    <string name="dlg_title_unit">Speed Data Unit</string>
+    <string name="dlg_label_seconds">Seconds</string>
+    
+    <!--Icon String-->
+    <string name="icon_label_network">@string/icon_network</string>
+    <string name="icon_label_connection_zero">@string/icon_block_1</string>
+    <string name="icon_label_connection_wifi">@string/icon_wifi</string>
+    <string name="icon_label_connection_mobile">@string/icon_signal_5</string>
+    <string name="icon_label_speed">@string/icon_gauge</string>
+    <string name="icon_label_downloaded">@string/icon_down_fat</string>
+    <string name="icon_label_data">@string/icon_down_fat</string>
+    <string name="icon_label_duration">@string/icon_hourglass_1</string>
+    <string name="icon_label_date">@string/icon_calendar_4</string>
+    <string name="icon_label_time">@string/icon_clock</string>
+    <string name="icon_label_check">@string/icon_check_3</string>
+    <string name="icon_label_check_empty">@string/icon_check_empty_1</string>
+    <string name="icon_label_chart">@string/icon_chart</string>
+
+    <!--Tour strings-->
+    <string name="tour_speed_title">Test</string>
+    <string name="tour_speed_text">the download speed of your device by tapping the blue start button and watch the results occur in real time.</string>
+    <string name="tour_data_title">Control</string>
+    <string name="tour_data_text">your mobile data by setting a download limit for the test, just tap the green arrow to the right of the start button.</string>
+    <string name="tour_duration_title">Choose</string>
+    <string name="tour_duration_text">the duration of the test by tapping the blue icon to the left of the start button, and choose a limit between 10 and 60 seconds</string>
+    <string name="tour_save_title">Save</string>
+    <string name="tour_save_text">the results of a test by tapping the white icon at the top-right corner of the screen, after the test is finished.</string>
+    <string name="tour_results_title">Browse</string>
+    <string name="tour_results_text">through saved results and tap to see more details, to open this list tap the white icon to the left of the save button.</string>
+    <string name="tour_drawer_title">Discover</string>
+    <string name="tour_drawer_text">more information and options in the side menu, you can access it by tapping the icon at the top-left corner of the screen</string>
+    <string name="tour_empty_text">ENJOY!</string>
+    <string name="tour_label_skip">SKIP</string>
+    <string name="tour_label_done">DONE</string>
+
+    <!--Help icons-->
+    <string name="icon_indicator_collapsed">@string/icon_down_open_mini</string>
+    <string name="icon_indicator_expanded">@string/icon_up_open_mini</string>
+    <string name="icon_help_start">@string/icon_play_1</string>
+    <string name="icon_help_connection">@string/icon_label_connection_wifi</string>
+    <string name="icon_help_graph">@string/icon_chart_line_1</string>
+    <string name="icon_help_results">@string/icon_label_speed</string>
+    <string name="icon_help_configuration">@string/icon_cog_4</string>
+    <string name="icon_help_save">@string/icon_label_action_save</string>
+    <string name="icon_help_browse">@string/icon_list_2</string>
+    <string name="icon_help_units">@string/icon_hash_1</string>
+    <!--Help Strings-->
+    <string name="action_title_collapse">Collapse All</string>
+    <string name="label_help_title_start">How to Start</string>
+    <string name="label_help_title_connection">Connection</string>
+    <string name="label_help_title_graph">The Graph</string>
+    <string name="label_help_title_results">Results</string>
+    <string name="label_help_title_configuration">Configuration</string>
+    <string name="label_help_title_save">Saving Results</string>
+    <string name="label_help_title_browse">Browsing Results</string>
+    <string name="label_help_title_units">Data Units</string>
+    <string name="label_help_example_duration_1">10 Seconds</string>
+    <string name="label_help_example_duration_2">20 Seconds</string>
+    <string name="label_help_example_wifinetwork">Wifi \"Home Network\"</string>
+    <string name="label_help_example_network">Home Network</string>
+    <string name="label_help_example_date">12 SEP 2015</string>
+    <string name="label_help_example_data_1">10 MB</string>
+    <string name="label_help_example_data_2">500 MB</string>
+    <string name="label_help_text_start_1">
+        Starting the test is simple, just tap the blue button at the bottom of the
+        screen. After that, the buttons might turn gray while a connection to the
+        server is established.
+    </string>
+    <string name="label_help_text_start_2">
+        When the connection is established and the test starts, the blue button
+        becomes a red stop button, which you can tap to stop the test.
+    </string>
+    <string name="label_help_text_connection_1">
+        At the top of the speed test screen you can find the connection information,
+        if your device is NOT connected to wifi you will see a signal symbol
+        (as shown in the image), followed by the type of mobile connection (e.g. LTE)
+        and the mobile carrier name (e.g. \"T-Mobile\").
+    </string>
+    <string name="label_help_text_connection_2">
+        However, if your device is connected to a wifi network, you will see the known
+        wifi symbol, followed by the word \"Wifi\" and the name (SSID) of the network.
+    </string>
+    <string name="label_help_text_connection_3">
+        If your device is NOT connected to any network you will see an error symbol,
+        followed by the words \"Not Connected\".
+    </string>
+    <string name="label_help_text_graph_1">
+        This is where you can see the progress of the test by observing how much data
+        was downloaded for every second passed.
+    </string>
+    <string name="label_help_text_graph_2">
+        The horizontal axis represents the duration of the test, and the numbers are the seconds.
+    </string>
+    <string name="label_help_text_graph_3">
+        The vertical axis represents the amount of data downloaded, and the numbers are the
+        measure in  Megabits (Mb). For more information about Megabits see the Data Units section.
+    </string>
+    <string name="label_help_text_graph_4">
+        Every circle in this line represents the amount of data downloaded for a specific second;
+        this line does NOT represent the average download speed.
+    </string>
+    <string name="label_help_text_graph_5">
+        This dashed line represents the average download speed of the device, taking into account
+        the total amount of data downloaded throughout the complete duration of the test.
+    </string>
+    <string name="label_help_text_results_1">
+        This is the most important value of the test, it goes along with the dashed line
+        on the graph and it indicates the average download speed of the device. The whole
+        point of the test is to calculate this value.
+    </string>
+    <string name="label_help_text_results_2">
+        This value indicates the total amount of data downloaded during the test, remember
+        that if your device is NOT connected to a wifi network, the test will consume part
+        of your mobile data plan, so we consider important that you can see this value at all times.
+    </string>
+    <string name="label_help_text_configuration_1">
+        There are 2 ways to configure the execution of the speed test. You can access these options
+        by tapping the buttons located to the left and right of the start button.
+    </string>
+    <string name="label_help_text_configuration_2">
+        The button located to the LEFT opens a dialog that allows you to choose the duration of the test.
+    </string>
+    <string name="label_help_text_configuration_3">
+        The button located to the RIGHT opens a dialog that allows you to choose a limit
+        for the amount of data that can be downloaded during the test.
+    </string>
+    <string name="label_help_text_save_1">
+        After every test you can save the results obtained and other information like connection type,
+        duration, date and time. To achieve this, you just have to tap the icon located at the top-right
+        corner of the speed test screen.
+    </string>
+    <string name="label_help_text_browse_1">
+        If you have saved one or more test results, there will be a list available where all this
+        information is stored. You can access this list by tapping the icon located to the left of
+        the \'save\' button, in the top-right corner of the screen.
+    </string>
+    <string name="label_help_text_browse_2">
+        Every item in the list displays an overview of the data stored from the test.
+    </string>
+    <string name="label_help_text_browse_3">
+        Tapping any item in the list will open a dialog showing detailed information
+        of that test. You can use the blue button to go back to the list, or the red
+        button to delete that specific item from the list.
+    </string>
+    <string name="label_help_text_units_1">
+        Using this application you will see two different data units:
+        \n- Megabit (Mb)
+        \n- Kilobit (Kb)
+        \nBoth units are used to measure data size in electronic devices, the difference
+        between them is that 1 Mb = 1024 Kb, so we use Kb to measure small amounts of
+        data, and we use Mb to measure larger amounts of data.
+    </string>
+    <string name="label_help_text_units_2">
+        You will also see two other related units that are used to measure download speed:
+        \n- Megabits per second (Mb/s)
+        \n- Kilobits per second (Kb/s)
+        \nThe difference between them are also as explained before.
+    </string>
+
+    <!--About-->
+    <string name="label_about_copyright">
+        The Speed Tester ™, including graphics and logos, is protected by copyright
+        law and operated by Bit45™.\nCopyright © 2015 Bit45™. All rights reserved.
+    </string>
+    <string name="label_about_title_email">Any suggestions? complaints?</string>
+    <string name="label_about_text_email">You can send us an Email at:</string>
+    <string name="label_about_email">TheBit45@gmail.com</string>
+    <string name="label_version">Version</string>
+
+</resources>

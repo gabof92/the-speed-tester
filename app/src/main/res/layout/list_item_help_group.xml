@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bit45.thespeedtester.MaterialRippleLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/RippleStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/alt_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@color/alt_background2">
+
+        <!--LAYOUT ICON-->
+        <RelativeLayout
+            android:background="@color/alt_background"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="@dimen/help_item_group_icon_minWidth"
+            >
+            <!--ICON-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_centerInParent="true"
+                android:id="@+id/helpIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/help_item_group_icon_padding"
+                android:textSize="@dimen/help_item_group_icon"
+                android:text="@string/icon_label_connection_wifi"
+                android:textColor="@color/main_app_color"/>
+
+        </RelativeLayout>
+
+        <!--LAYOUT TEXT-->
+        <RelativeLayout
+            android:background="@drawable/border_left"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <!--_____________TITLE_________________-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                android:id="@+id/helpText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text"
+                android:textSize="@dimen/help_item_group_text"
+                app:typeface="robotoMedium" />
+            <!--___________________________________-->
+
+        </RelativeLayout>
+
+        <!--LAYOUT RIGHT ICON-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--ICON RIGHT-->
+            <com.bit45.thespeedtester.font.FontelloTextView
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/icon_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="@dimen/help_item_group_icon_right"
+                android:text="@string/icon_indicator_collapsed"
+                android:textColor="@color/alt_text"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.bit45.thespeedtester.MaterialRippleLayout>

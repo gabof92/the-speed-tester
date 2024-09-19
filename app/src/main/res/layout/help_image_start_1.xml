@@ -1,0 +1,99 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minWidth="@dimen/help_item_child_image_minWidth"
+    android:orientation="vertical">
+
+    <!--MAIN CONTENT LAYOUT-->
+    <LinearLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/main_background">
+
+        <!-- General INFO PANEL -->
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:gravity="center">
+
+            <!--Info LABEL-->
+            <com.bit45.thespeedtester.font.RobotoTextView
+                style="@style/LabelStyle.Info"
+                android:text="@string/label_info_welcome"
+                android:id="@+id/rbInfo"
+                android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+        <!-- BUTTONS PANEL -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_above="@+id/adView"
+            android:id="@+id/linearLayout">
+
+            <!--DURATION BUTTON-->
+            <com.bit45.thespeedtester.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                app:rippleColor="@color/main_color_grey_400"
+                android:layout_weight="0">
+
+                <com.bit45.thespeedtester.font.FontelloTextView
+                    style="@style/ButtonStyle.Alt.Config"
+                    android:text="@string/icon_label_duration"
+                    android:id="@+id/btnDuration"
+                    android:textColor="@color/icon_duration" />
+
+            </com.bit45.thespeedtester.MaterialRippleLayout>
+
+            <!-- START BUTTON -->
+            <com.bit45.thespeedtester.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                app:rippleColor="@color/main_color_grey_400"
+                android:layout_weight="1">
+
+                <com.bit45.thespeedtester.font.RobotoTextView
+                    style="@style/ButtonStyle.Main.Start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/button_start"
+                    android:id="@+id/btnStart" />
+
+            </com.bit45.thespeedtester.MaterialRippleLayout>
+
+            <!--DATA BUTTON-->
+            <com.bit45.thespeedtester.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:rippleColor="@color/main_color_grey_400"
+                android:layout_weight="0">
+
+                <com.bit45.thespeedtester.font.FontelloTextView
+                    android:id="@+id/btnData"
+                    style="@style/ButtonStyle.Alt.Config"
+                    android:text="@string/icon_label_data"
+                    android:textColor="@color/icon_data"/>
+            </com.bit45.thespeedtester.MaterialRippleLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prova de velocitat</string>
+    <string name="title_activity_test_result_list">Provas Guardats</string>
+
+    <!--Toolbar Strings-->
+    <string name="action_title_save">Guardar resultat</string>
+    <string name="action_title_result_list">@string/title_activity_test_result_list</string>
+    <string name="action_title_unit">Unitats de Dades</string>
+
+    <!--Drawer Strings-->
+    <string name="label_drawer_rate">Puntua\'ns</string>
+    <string name="label_drawer_help">Ajuda</string>
+    <string name="label_drawer_tour">Visita Ràpida</string>
+    <string name="label_drawer_about">Sobre</string>
+
+    <!--Label Strings-->
+    <string name="label_not_connected">No Conectat</string>
+    <string name="label_connection_wifi">Wifi</string>
+    <string name="label_variable_zero">-</string>
+    <string name="label_network">Xarxa:</string>
+    <string name="label_connection">Tipus de Connexió:</string>
+    <string name="label_speed">Velocitat:</string>
+    <string name="label_downloaded">Descarregat:</string>
+    <string name="label_duration">Durada:</string>
+    <string name="label_date">Data:</string>
+    <string name="label_time">Hora:</string>
+    <string name="label_info_welcome">Benvingut</string>
+    <string name="label_info_predownload">Connectant</string>
+    <string name="label_info_postdownload">Acabat</string>
+    <string name="label_info_cancelled">Detingut</string>
+    <string name="label_info_failed">Error de Connexió</string>
+    <string name="label_info_loading">Carregant</string>
+    <string name="label_info_noresults">Res Guardat</string>
+    <string name="button_start">Inicia</string>
+    <string name="button_cancel">Aturar</string>
+    <string name="label_list_item_seconds">s</string>
+
+    <!--Toast Strings-->
+    <string name="test_toast_running">Prova en curs</string>
+    <string name="test_toast_save_done">Guardat amb èxit</string>
+    <string name="test_toast_save_again">Ja està fet</string>
+    <string name="test_toast_save_noresult">Res a guardar</string>
+    <string name="test_toast_save_error">Hi ha hagut un error</string>
+    <string name="test_toast_delete_success">Eliminat correctament</string>
+
+    <!--Date Strings-->
+    <string name="label_month_january">GENER</string>
+    <string name="label_month_february">FEBRER</string>
+    <string name="label_month_march">MARÇ</string>
+    <string name="label_month_april">ABRIL</string>
+    <string name="label_month_may">MAIG</string>
+    <string name="label_month_june">JUNY</string>
+    <string name="label_month_july">JULIOL</string>
+    <string name="label_month_august">AGOST</string>
+    <string name="label_month_september">SEPTEMBRE</string>
+    <string name="label_month_october">OCTUBRE</string>
+    <string name="label_month_november">NOVEMBRE</string>
+    <string name="label_month_december">DESEMBRE</string>
+
+    <string name="label_month_january_short">ENE</string>
+    <string name="label_month_february_short">FEB</string>
+    <string name="label_month_march_short">MAR</string>
+    <string name="label_month_april_short">ABR</string>
+    <string name="label_month_may_short">MAI</string>
+    <string name="label_month_june_short">JUN</string>
+    <string name="label_month_july_short">JUL</string>
+    <string name="label_month_august_short">AGO</string>
+    <string name="label_month_september_short">SEP</string>
+    <string name="label_month_october_short">OCT</string>
+    <string name="label_month_november_short">NOV</string>
+    <string name="label_month_december_short">DES</string>
+    
+    <!--Dialog Strings-->
+    <string name="dlg_button_cancel">Tornar</string>
+    <string name="title_result_detail_activity">Detalls de la Prova</string>
+    <string name="dlg_button_done">llest</string>
+    <string name="dlg_button_delete">Eliminar</string>
+    <string name="dlg_title_maxduration">Durada de la Prova</string>
+    <string name="dlg_title_maxdata">Límit de Descàrrega</string>
+    <string name="dlg_title_unit">Unitats de Dades</string>
+    <string name="dlg_label_seconds">Segons</string>
+
+    <!--Tour strings-->
+    <string name="tour_speed_title">Posa a Prova</string>
+    <string name="tour_speed_text">la velocitat de descàrrega del teu dispositiu, prem el botó blau d\'inici i observa els resultats en temps real.</string>
+    <string name="tour_data_title">Controla</string>
+    <string name="tour_data_text">les teves dades mòbils fixant un límit de descàrrega per al test, només prem la icona verda a la dreta del botó d\'inici.</string>
+    <string name="tour_duration_title">Tria</string>
+    <string name="tour_duration_text">la durada del test prement la icona blau, a l\'esquerra del botó d\'inici, i tria un temps màxim de 60 segons</string>
+    <string name="tour_save_title">Guardar</string>
+    <string name="tour_save_text">els resultats del test prement la icona blanc a la part superior dreta, però només quan el test hagi finalitzat.</string>
+    <string name="tour_results_title">Revisa</string>
+    <string name="tour_results_text">els resultats guardats i clica per veure més detalls, obre la llista clicant la icona a l\'esquerra del botó de desament.</string>
+    <string name="tour_drawer_title">Descobreix</string>
+    <string name="tour_drawer_text">més informació i opcions al menú lateral, pots obrir-lo tocant la icona a la cantonada superior esquerra de la pantalla.</string>
+    <string name="tour_empty_text">GAUDEIX!</string>
+    <string name="tour_label_skip">OMETRE</string>
+    <string name="tour_label_done">LLEST</string>
+
+    <!--About-->
+    <string name="label_about_copyright">
+        Prova de Velocitat ™, incloent imatges i logos, està protegit per
+        la llei de drets d\'autor i és operat per Bit45 ™.
+        \nCopyright © 2015 Bit45 ™. Tots els drets reservats.
+    </string>
+    <string name="label_about_title_email">Té suggeriment o comentari?</string>
+    <string name="label_about_text_email">Pots enviar-nos un e-mail a:</string>
+    <string name="label_version">Versió</string>
+
+    <!--Help-->
+    <string name="action_title_collapse">Tancar Tots</string>
+    <string name="label_help_title_start">Com Iniciar</string>
+    <string name="label_help_title_connection">Connexió</string>
+    <string name="label_help_title_graph">La Gràfica</string>
+    <string name="label_help_title_results">Resultats</string>
+    <string name="label_help_title_configuration">Configuració</string>
+    <string name="label_help_title_save">Guardar Prova</string>
+    <string name="label_help_title_browse">Cercar una Prova</string>
+    <string name="label_help_title_units">Unitats de Dades</string>
+    <string name="label_help_example_duration_1">10 Segons</string>
+    <string name="label_help_example_duration_2">20 Segons</string>
+    <string name="label_help_example_wifinetwork">Wifi \"Xarxa d\'Oficina\"</string>
+    <string name="label_help_example_network">Xarxa d\'Oficina</string>
+    <string name="label_help_example_date">12 SEP 2015</string>
+    <string name="label_help_text_start_1">
+        Iniciar el test és simple, només toca el botó blau en la part inferior
+        de la pantalla. Després, pot ser que els botons es tornin color gris mentre
+        s\'estableix la connexió al servidor.
+    </string>
+    <string name="label_help_text_start_2">
+        Un cop establerta la connexió comença el test, el botó blau
+        esdevé un botó vermell que pots tocar per aturar el test.
+    </string>
+    <string name="label_help_text_connection_1">
+        A la part superior de la pantalla del test pots trobar la informació
+        de connexió, si el teu dispositiu NO està connectat a wifi veuràs el símbol de
+        connexió mòbil, seguit de el tipus de connexió (p. ex. LTE) i el nom del
+        operador de telefonia mòbil (p. ex. \"Movistar \").
+    </string>
+    <string name="label_help_text_connection_2">
+        En canvi, si el teu dispositiu està connectat a una xarxa wifi, es mostrarà el
+        conegut símbol de connexió internet, seguit de la paraula \ "Wifi \" i el nom (SSID) de la xarxa.
+    </string>
+    <string name="label_help_text_connection_3">
+        Si el teu dispositiu no està connectat a una xarxa es mostratá un símbol d\'error,
+        seguit de les paraules \"No Connectat \".
+    </string>
+    <string name="label_help_text_graph_1">
+        Aquí és on pots veure el progrés del test observant quanta data va ser
+        descarregada per cada segon transcorregut.
+    </string>
+    <string name="label_help_text_graph_2">
+        L\'eix horitzontal representa la durada del test, i els números són la mesura en segons.
+    </string>
+    <string name="label_help_text_graph_3">
+        L\'eix vertical representa la quantitat de dades descarregades, i els números són
+        la mesura en Kilobits (Kb). Per a més informació sobre Kilobits veure la secció
+        d\'unitats de data.
+    </string>
+    <string name="label_help_text_graph_4">
+        Cada cercle en aquesta línia representa la quantitat de dades descarregades per cada
+        segon individualment; aquesta línia NO representa la velocitat de descàrrega mitjana.
+    </string>
+    <string name="label_help_text_graph_5">
+        La línia de punts representa la velocitat de descàrrega mitjana, tenint en compte
+        la quantitat total de dades descarregades al llarg de tot el test.
+    </string>
+    <string name="label_help_text_results_1">
+        Aquest és el valor més important del test, va de la mà amb la línia puntejada
+        en la gràfica i indica la velocitat de descàrrega mitjana del dispositiu.
+        L\'objectiu principal del test és calcular aquest valor.
+    </string>
+    <string name="label_help_text_results_2">
+        Aquest valor indica la quantitat total de dades descarregades durant el test, recorda
+        que, si el teu dispositiu NO està connectat a una xarxa wifi, el test consumirà part del teu pla
+        de dades mòbils, per això considerem important mantenir-te informat d\'aquest valor
+        en tot moment.
+    </string>
+    <string name="label_help_text_configuration_1">
+        Hi ha dues maneres de configurar l\'execució del test de velocitat. Pots accedir a aquestes
+        opcions tocant un dels botons que es troben a l\'ESQUERRA o DRETA del botó
+        blau d\'inici.
+    </string>
+    <string name="label_help_text_configuration_2">
+        El botó que es troba a l\'ESQUERRA del botó d\'inici obre una finestra que et
+        permet escollir la durada del test.
+    </string>
+    <string name="label_help_text_configuration_3">
+        El botó que es troba a la DRETA del botó d\'inici s\'obre una finestra que
+        et permet assignar un límit a la quantitat de dades descarregades en el test.
+    </string>
+    <string name="label_help_text_save_1">
+        Després de cada test pots guardar els resultats obtinguts i una altra informació important
+        tal com el tipus de connexió, la durada del test, la data i hora. Per fer això només
+        has de tocar la icona que es troba a la cantonada superior dreta de la pantalla
+        (veure imatge).
+    </string>
+    <string name="label_help_text_browse_1">
+        Si heu desat un o més resultats, hi haurà disponible una llista on tota aquesta informació
+        estarà emmagatzemada. Pots accedir-hi tocant la icona que es troba al costat esquerre
+        de la icona de \'guardar\', a la part superior dreta (veure imatge).
+    </string>
+    <string name="label_help_text_browse_2">
+        Cada element de la llista mostra un resum de la infomació emmagatzemada del test.
+    </string>
+    <string name="label_help_text_browse_3">
+        En tocar un element de la llista s\'obrirà una finestra mostrant informació
+        detallada d\'aquest test. Pots tocar el botó blau per tornar, o el vermell
+        per eliminar aquest element de la llista.
+    </string>
+    <string name="label_help_text_units_1">
+        Utilitzant aquesta aplicació trobaràs dues unitats de dades diferents:
+        \n- Megabit (Mb)
+        \n- Kilobit (Kb)
+        \n Les dues unitats són utilitzades per mesurar quantitats de dades en dispositius
+        electrònics, la diferència entre elles és que 1 Mb = 1024 Kb, així que utilitzem
+        KB per mesurar petites quantitats de dades i Mb per quantitats de dades més grans.
+    </string>
+    <string name="label_help_text_units_2">
+        També trobaràs dues unitats relacionades que s\'utilitzen per mesurar la velocitat
+        de descàrrega:
+        \n- megabytes per segon (Mb/s)
+        \n- kilobytes per segon (Kb/s)
+        \n La diferència entre ells és com es va explicar anteriorment.
+    </string>
+
+
+</resources>

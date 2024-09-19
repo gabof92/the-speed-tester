@@ -1,0 +1,90 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">12dp</dimen>
+    <dimen name="activity_vertical_margin">12dp</dimen>
+
+    <!--ADMOB BANNER-->
+    <dimen name="banner_height">90dp</dimen>
+
+    <!--Button Styles Dimentions-->
+    <dimen name="button_style_margin">4dp</dimen>
+    <dimen name="button_style_padding">5dp</dimen>
+    <dimen name="button_main_text">40dp</dimen>
+    <dimen name="button_main_min_width">120dp</dimen>
+    <dimen name="button_alt_text">40dp</dimen>
+    <dimen name="button_alt_min_width">80dp</dimen>
+
+    <!--Icon Style Dimentions-->
+    <dimen name="icon_style_margin_side">10dp</dimen>
+    <dimen name="icon_style_margin_vertical">10dp</dimen>
+    <dimen name="icon_style_padding_side">12dp</dimen>
+    <dimen name="icon_style_padding_vertical">2dp</dimen>
+    <dimen name="icon_min_width">60dp</dimen>
+    <dimen name="icon_style_text">35dp</dimen>
+
+    <!--Label Style Dimentions-->
+    <dimen name="label_style_text">35dp</dimen>
+    <dimen name="label_variable_margin_left">20dp</dimen>
+    <dimen name="label_info_height">100dp</dimen>
+    <dimen name="label_info_text">60dp</dimen>
+
+    <!--LineChart Dimentions-->
+    <dimen name="linechart_big_radius">7dp</dimen>
+    <dimen name="linechart_big_stroke">4dp</dimen>
+    <dimen name="linechart_big_thickness">4dp</dimen>
+    <dimen name="linechart_small_radius">4dp</dimen>
+    <dimen name="linechart_small_stroke">2dp</dimen>
+    <dimen name="linechart_small_thickness">3dp</dimen>
+    <dimen name="linechart_height">300dp</dimen>
+    <dimen name="linechart_padding">18dp</dimen>
+    <dimen name="linechart_padding_bottom">10dp</dimen>
+    <dimen name="linechart_label_margin">6dp</dimen>
+    <dimen name="linechart_label_text">25dp</dimen>
+    <dimen name="linechart_text">15dp</dimen>
+
+    <!--Tour Dimentions-->
+    <dimen name="welcome_content_min_height">120dip</dimen>
+    <dimen name="tour_title_size">50dp</dimen>
+    <dimen name="tour_text_size">25dp</dimen>
+    <dimen name="tour_text_padding">18dp</dimen>
+
+    <!--ITEM RESULT LIST-->
+    <dimen name="result_item_icon_big">45dp</dimen>
+    <dimen name="result_item_icon_big_padding_vertical">10dp</dimen>
+    <dimen name="result_item_icon_big_padding_horizontal">20dp</dimen>
+    <dimen name="result_item_icon_small">20dp</dimen>
+    <dimen name="result_item_icon_right">30dp</dimen>
+    <dimen name="result_item_text_icon">15dp</dimen>
+    <dimen name="result_item_text_small">20dp</dimen>
+    <dimen name="result_item_text_main">40dp</dimen>
+
+    <!--RESULT DETAIL-->
+    <dimen name="result_detail_title_padding_vertical">10dp</dimen>
+    <dimen name="result_detail_icon_title">40dp</dimen>
+    <dimen name="result_detail_icon_title_minWidth">100dp</dimen>
+    <dimen name="result_detail_text_title">35dp</dimen>
+    <dimen name="result_detail_text_button">35dp</dimen>
+
+    <!--HELP-->
+    <dimen name="help_item_group_icon">45dp</dimen>
+    <dimen name="help_item_group_icon_padding">10dp</dimen>
+    <dimen name="help_item_group_icon_minWidth">100dp</dimen>
+    <dimen name="help_item_group_text">40dp</dimen>
+    <dimen name="help_item_group_icon_right">40dp</dimen>
+    <dimen name="help_item_child_text">25sp</dimen>
+    <dimen name="help_item_child_text_padding">20dp</dimen>
+    <dimen name="help_item_child_image_minWidth">550dp</dimen>
+
+    <!--DIALOG-->
+    <dimen name="dialog_single_choice_item_box">40dp</dimen>
+    <dimen name="dialog_single_choice_item_text">30dp</dimen>
+
+    <!--ABOUT-->
+    <dimen name="about_icon">200dp</dimen>
+    <dimen name="about_text_copyright">20sp</dimen>
+    <dimen name="about_text_suggestions">25sp</dimen>
+    <dimen name="about_text_emailus">22sp</dimen>
+    <dimen name="about_text_email">25sp</dimen>
+    <dimen name="about_text_version">27sp</dimen>
+
+</resources>

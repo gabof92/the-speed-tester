@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:minWidth="300dp"
+    android:orientation="vertical"
+    android:background = "@color/main_background">
+
+    <!-- The Title Bar -->
+    <LinearLayout
+        android:id = "@+id/dlg_single_choice_titlebar"
+        android:orientation = "horizontal"
+        android:layout_width = "fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity = "center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@color/main_app_color">
+        <com.bit45.thespeedtester.font.FontelloTextView
+            android:id="@+id/dlg_title_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="60dp"
+            android:textSize="22sp"
+            android:textColor="@color/main_text"
+            android:gravity="center_horizontal"
+            android:text="@string/icon_label_duration"
+            />
+        <com.bit45.thespeedtester.font.RobotoTextView
+            android:id="@+id/dlg_title_text"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/main_text"
+            app:typeface="robotoBlack"
+            android:text="@string/dlg_title_maxduration"
+            />
+    </LinearLayout>
+    <!--LIST ITEM 1-->
+    <RelativeLayout
+        android:orientation = "horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.bit45.thespeedtester.font.RobotoTextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textSize="18dp"
+            android:textColor = "@color/main_text"
+            app:typeface="robotoMedium"
+            android:text="@string/label_help_example_duration_1"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width = "22dp"
+            android:layout_height = "22dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/check_on_dark"/>
+    </RelativeLayout>
+    <!--LIST ITEM 2-->
+    <RelativeLayout
+        android:background="@drawable/border_top"
+        android:orientation = "horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.bit45.thespeedtester.font.RobotoTextView
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:textSize="18dp"
+            android:textColor = "@color/main_text"
+            app:typeface="robotoMedium"
+            android:text="@string/label_help_example_duration_2"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_width = "22dp"
+            android:layout_height = "22dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/check_off_dark"/>
+    </RelativeLayout>
+
+</LinearLayout>

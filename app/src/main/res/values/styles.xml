@@ -1,0 +1,129 @@
+<resources>
+
+    <!-- Default application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+
+        <item name="colorPrimary">@color/main_background</item>
+        <item name="colorPrimaryDark">@color/alt_background</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/main_background</item>
+        <item name="colorPrimaryDark">@color/alt_background</item>
+    </style>
+    <style name="AppTheme.Title" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+    <!-- Default application theme ends here -->
+
+    <!-- ActionBar related themes -->
+    <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/main_color_500</item>
+        <item name="titleTextStyle">@style/ActionBarStyle.TitleTextStyle</item>
+    </style>
+    <style name="ActionBarStyle.TitleTextStyle" parent="@style/TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <!-- Ripple related styles -->
+    <style name="RippleStyle">
+        <item name="rippleOverlay">true</item>
+        <item name="rippleColor">@color/main_color_500</item>
+        <item name="rippleAlpha">0.7</item>
+        <item name="rippleDimension">45dp</item>
+        <item name="rippleHover">true</item>
+        <item name="rippleDuration">200</item>
+        <item name="rippleFadeDuration">50</item>
+        <item name="rippleBackground">@android:color/transparent</item>
+        <item name="rippleDelayClick">true</item>
+        <item name="ripplePersistent">false</item>
+        <item name="rippleInAdapter">false</item>
+    </style>
+    <!-- Ripple related styles end here -->
+
+
+    <!-- Icon related styles -->
+    <style name="IconStyle" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/icon_min_width</item>
+        <item name="android:layout_marginTop">@dimen/icon_style_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/icon_style_margin_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/icon_style_margin_side</item>
+        <item name="android:layout_marginRight">@dimen/icon_style_margin_side</item>
+        <item name="android:paddingTop">@dimen/icon_style_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/icon_style_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/icon_style_padding_side</item>
+        <item name="android:paddingRight">@dimen/icon_style_padding_side</item>
+        <item name="android:textSize">@dimen/icon_style_text</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Label related styles -->
+    <style name="LabelStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/label_style_text</item>
+        <item name="android:textColor">@color/main_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="LabelStyle.Connection">
+        <item name="typeface">robotoBlack</item>
+    </style>
+
+    <style name="LabelStyle.Constant">
+        <item name="typeface">robotoBold</item>
+    </style>
+
+    <style name="LabelStyle.Variable">
+        <item name="typeface">robotoRegular</item>
+        <item name="android:layout_marginLeft">@dimen/label_variable_margin_left</item>
+    </style>
+
+    <style name="LabelStyle.Info">
+        <item name="typeface">info</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/label_info_height</item>
+        <item name="android:textSize">@dimen/label_info_text</item>
+        <item name="android:textColor">@color/main_app_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- ListView related themes -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/main_color_grey_100</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+    <!-- ListView related themes end here -->
+
+    <!--Custom Dialog Style-->
+    <style name="dlg_single_choice" parent="@android:Theme.Dialog">
+        <item name = "android:windowNoTitle"> true </item>
+    </style>
+
+    <!--PRODUCT TOUR STYLES-->
+    <style name="WelcomeHeadingAppearance" parent="@android:style/TextAppearance.Large">
+        <item name="android:textSize">@dimen/tour_title_size</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingRight">@dimen/tour_text_padding</item>
+        <item name="android:paddingLeft">@dimen/tour_text_padding</item>
+    </style>
+    <style name="WelcomeContentAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textSize">@dimen/tour_text_size</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
