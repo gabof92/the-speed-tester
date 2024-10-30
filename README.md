@@ -25,7 +25,6 @@
 <img src="https://github.com/user-attachments/assets/2a6e2af2-1ee6-4061-a705-79c34f94cb75" width="150"/>
 <img src="https://github.com/user-attachments/assets/be583135-5046-4bbc-8161-b525f97aaaab" width="150"/>
 <img src="https://github.com/user-attachments/assets/656a4056-852e-4c0d-b186-17917a99a293" width="150"/>
-<img src="https://github.com/user-attachments/assets/7113f2fe-a828-4690-b45f-37a6774a94d6" width="150"/>
 </p>
 
 - **Help Section:** A more detailed explanation of functionality is also available within the app.
